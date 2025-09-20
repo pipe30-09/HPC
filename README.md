@@ -26,4 +26,67 @@ Adicionalmente, se incluye un script de automatización en Bash para ejecutar pr
 ├── resultados.csv         # Resultados de las ejecuciones<br />
 └── README.md<br />
 
+# Instalación
+
+## Clonar el repositorio:
+
+git clone https://github.com/TU_USUARIO/HPC_MultiplicacionMatrices.git
+cd HPC_MultiplicacionMatrices
+
+
+## Dar permisos de ejecución al script de automatización:
+
+chmod +x automatizacion.sh
+
+# Uso
+
+Ejecutar las pruebas de forma automática con:
+
+./automatizacion.sh 
+
+El script realizará:
+
+1. Compilación automática de los tres programas (secuencial, hilos y procesos+hilos).
+
+2. Ejecución repetida de cada variante un número de veces definido (por defecto 10).
+
+3. Variación de parámetros como tamaño de matriz, número de hilos y procesos.
+
+4. Registro de resultados en resultados.csv.
+
+5. Generación de gráficos y tablas comparativas.
+
+# Temas abordados
+
+Este proyecto se centra en conceptos de:
+
+- HPC (High Performance Computing)
+
+- Multiplicación de matrices
+
+- Computación secuencial y paralelismo
+
+- Complejidad computacional
+
+- Hilos y procesos
+
+- Medición de tiempos (CPU, usuario, sistema)
+
+- Speedup y escalabilidad
+
+# Resultados esperados
+
+1. La versión paralela con hilos reduce significativamente el tiempo frente a la secuencial.
+
+2. La versión procesos + hilos logra mejor escalabilidad en matrices grandes.
+
+3. El análisis de speedup permite observar la eficiencia del paralelismo en distintos escenarios.
+
+# Autores
+
+Andres Felipe Salggado Ramirez
+Brighitte Velez Castro
+Karen Melissa Parrra Sepulveda
+
+
 
