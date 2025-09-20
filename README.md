@@ -5,11 +5,11 @@ Este repositorio está orientado al estudio y experimentación en Computación d
 
 Este repositorio contiene la implementación de multiplicación de matrices cuadradas en el contexto de Computación de Alto Rendimiento (HPC). Se desarrollaron tres variantes para analizar y comparar su rendimiento:
 
-✅ Ejecución Secuencial en C.
+- Ejecución Secuencial en C.
 
-✅ Ejecución Paralela con Hilos (pthreads).
+- Ejecución Paralela con Hilos (pthreads).
 
-✅ Ejecución Híbrida con Procesos + Hilos usando memoria compartida.
+- Ejecución Híbrida con Procesos + Hilos usando memoria compartida.
 
 Adicionalmente, se incluye un script de automatización en Bash para ejecutar pruebas repetitivas y scripts en Python para graficar y analizar métricas como tiempo de ejecución y speedup.
 
@@ -42,7 +42,7 @@ chmod +x automatizacion.sh
 
 Ejecutar las pruebas de forma automática con:
 
-./automatizacion.sh 
+"`./automatizacion.sh`" 
 
 El script realizará:
 
@@ -84,9 +84,10 @@ Este proyecto se centra en conceptos de:
 
 # Autores
 
-Andres Felipe Salggado Ramirez
-Brighitte Velez Castro
-Karen Melissa Parrra Sepulveda
+Andrés Felipe Salgado Ramírez<br />
+Brighitte Velez Castro<br />
+Juan David Céspedes Mendoza<br />
+Karen Melissa Parrra Sepulveda<br />
 
 
 
