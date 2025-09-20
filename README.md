@@ -27,13 +27,13 @@ Adicionalmente, se incluye un script de automatización en Bash para ejecutar pr
 
 ## Clonar el repositorio:
 
-git clone https://github.com/TU_USUARIO/HPC_MultiplicacionMatrices.git
+git clone https://github.com/TU_USUARIO/HPC_MultiplicacionMatrices.<br />
 cd HPC_MultiplicacionMatrices
 
 
 ## Dar permisos de ejecución al script de automatización:
 
-chmod +x automatizacion.sh
+"`chmod +x automatizacion.sh`" 
 
 # Uso
 
