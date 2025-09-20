@@ -15,8 +15,8 @@ Adicionalmente, se incluye un script de automatización en Bash para ejecutar pr
 
 # Estructura del repositorio
 
-├── matriz_utils.c         # Funciones auxiliares (generación, memoria, temporizador)\n
-├── matriz_utils.h
+├── matriz_utils.c         # Funciones auxiliares (generación, memoria, temporizador)<br />
+├── matriz_utils.h<br />
 ├── secuencial.c           # Multiplicación secuencial
 ├── hilos.c                # Multiplicación con hilos
 ├── procesos_hilos.c       # Multiplicación con procesos + hilos
