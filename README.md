@@ -17,12 +17,13 @@ Adicionalmente, se incluye un script de automatización en Bash para ejecutar pr
 
 ├── matriz_utils.c         # Funciones auxiliares (generación, memoria, temporizador)<br />
 ├── matriz_utils.h<br />
-├── secuencial.c           # Multiplicación secuencial
-├── hilos.c                # Multiplicación con hilos
-├── procesos_hilos.c       # Multiplicación con procesos + hilos
-├── automatizacion.sh      # Script de ejecución y recopilación de resultados
-├── grafico.py             # Generación de gráficos
-├── tablas.py              # Generación de tablas comparativas
-├── resultados.csv         # Resultados de las ejecuciones
-└── README.md
+├── secuencial.c           # Multiplicación secuencial<br />
+├── hilos.c                # Multiplicación con hilos<br />
+├── procesos_hilos.c       # Multiplicación con procesos + hilos<br />
+├── automatizacion.sh      # Script de ejecución y recopilación de resultados<br />
+├── grafico.py             # Generación de gráficos<br />
+├── tablas.py              # Generación de tablas comparativas<br />
+├── resultados.csv         # Resultados de las ejecuciones<br />
+└── README.md<br />
+
 
