@@ -12,3 +12,17 @@ Este repositorio contiene la implementación de multiplicación de matrices cuad
 ✅ Ejecución Híbrida con Procesos + Hilos usando memoria compartida.
 
 Adicionalmente, se incluye un script de automatización en Bash para ejecutar pruebas repetitivas y scripts en Python para graficar y analizar métricas como tiempo de ejecución y speedup.
+
+# Estructura del repositorio
+
+├── matriz_utils.c         # Funciones auxiliares (generación, memoria, temporizador)
+├── matriz_utils.h
+├── secuencial.c           # Multiplicación secuencial
+├── hilos.c                # Multiplicación con hilos
+├── procesos_hilos.c       # Multiplicación con procesos + hilos
+├── automatizacion.sh      # Script de ejecución y recopilación de resultados
+├── grafico.py             # Generación de gráficos
+├── tablas.py              # Generación de tablas comparativas
+├── resultados.csv         # Resultados de las ejecuciones
+└── README.md
+
